@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 400px;
+    row-gap: 100px;
+    background-color: rgb(255, 248, 240);
+  }
+  
+  .titulo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgb(255, 248, 240);
+    font-size: 40px;
+    font-family: Didot, serif;
+  }
+  
+  img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .whiteBox {
+    display: grid;
+    border-radius: 15px;
+    box-shadow: 10px 7px 12px rgba(0,0,0,0.2);
+    grid-template-columns: auto auto;
+    border: 3px solid rgb(248, 241, 233);
+  }
+  
+  .produtos {
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 15px;
+    display: grid;
+    justify-items: center;
+    height: auto;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .tituloVinho{
+    font-size: 20px;
+  }
+  
