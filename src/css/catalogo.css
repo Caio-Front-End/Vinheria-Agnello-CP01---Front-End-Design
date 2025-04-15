@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;  
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 .cabecalho {
-    background-color: orangered;
+    background-color: rgb(172, 57, 28);
     padding: 20px;
     border: 10px;
     font-size: 24px;
@@ -13,13 +14,51 @@
     color: aliceblue;
 }
 
-.container {
-    display: flex ;
+.topoArea {
+    background-color: whitesmoke;
+    padding: 20px 0;
+    width: 100%;
+  }
+
+.ContainerCima {
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+.tituloVinho {
+    grid-column: 1 / 2;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+  }
+
+.ordenar {
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: center;
+    gap: 10px;
+}
+.ordenar label {
+    font-size: 20px;
+  }
+.ordenar select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.container {
     background-color: whitesmoke;
     padding: 20px;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .white-box {
@@ -27,12 +66,17 @@
     padding: 15px;
     border-radius: 10px;
     box-shadow: 6px 6px 22px 2px rgb(102, 102, 102);
+    margin-bottom: 20px;
+    max-width: 300px; /* Limita a largura máxima */
+    width: 100%; /* Faz com que ela use o espaço da coluna */
 }
-
 .items {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas fixas */
+    gap: 30px;
+    justify-items: center; /* Centraliza cada box dentro da coluna */
+    width: 100%;
+    max-width: 1100px; /* Limita o grid */
 }
 
 .item {
@@ -93,14 +137,11 @@
     
 }
 
-@media (max-width: 680px) {
-    .item {
-        display: block;
-    }
-    .item {
-        margin-bottom: 20px;
-    }
-    .container{
-        height: auto;
-    }
+.rodape {
+    background-color: rgb(172, 57, 28);
+    padding: 80px;
+    border: 10px;
+    font-size: 18px;
+    box-shadow: 10 11px 22px rgba(0, 0, 0, 0.2);
+    color: aliceblue;
 }
