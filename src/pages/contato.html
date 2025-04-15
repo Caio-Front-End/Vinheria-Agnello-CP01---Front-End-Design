@@ -1,23 +1,146 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinheria Agnello - Contato</title>
-    <link rel="shortcut icon" href="../assets/imgs/svg icons/contato.svg" type="image/x-icon">
-    <link rel="stylesheet" href="../css/contato.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Vinheria Agnello - Contato</title>
+   <link rel="shortcut icon" href="../assets/imgs/svg icons/contato.svg" type="image/x-icon" />
+   <link rel="stylesheet" href="../css/contato.css" />
+   <link rel="stylesheet" href="./src/css/style.css" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf6f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 40px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #350303;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .linha-dupla {
+      display: flex;
+      gap: 40px;
+    }
+
+    .linha-dupla input {
+      width: 100%;
+    }
+
+    label {
+      font-weight: bold;
+      color: #333;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      width: 100%;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 150px;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #7b2c2c;
+      outline: none;
+    }
+
+    .botao-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 12px;
+      background-color: #7b2c2c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+      height: 60px;
+      width: 180px;
+      display: block;
+    }
+
+    button:hover {
+      background-color: #a03c3c;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <!-- Conteúdo do cabeçalho aqui -->
-    </header>
-    <main>
-        <!-- Conteúdo principal aqui -->
-    </main>
-    <footer>
-        <!-- Conteúdo do rodapé aqui -->
-    </footer>
-    <script src="./src/js/script.js"></script>
+  <header>
+    <!-- Conteúdo do cabeçalho aqui -->
+  </header>
+
+  <main>
+    <h2>Entre em contato conosco para tirar dúvidas, fazer sugestões ou solicitar informações sobre nossos produtos e serviços.</h2>
+
+    <form class="form-contato" action="#" method="post">
+      <div class="linha-dupla">
+        <div>
+          <label for="Nome">Nome:</label>
+          <input type="text" id="Nome" name="Nome" placeholder="Nome" required />
+        </div>
+        <div>
+          <label for="Sobrenome">Sobrenome:</label>
+          <input type="text" id="Sobrenome" name="Sobrenome" placeholder="Sobrenome" required />
+        </div>
+      </div>
+
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required />
+      </div>
+
+      <div>
+        <label for="Assunto">Assunto:</label>
+        <input type="text" id="Assunto" name="Assunto" placeholder="Assunto" required />
+      </div>
+
+      <div>
+        <label for="Mensagem">Mensagem:</label>
+        <textarea id="Mensagem" name="Mensagem" placeholder="Escreva sua mensagem aqui..." required></textarea>
+      </div>
+
+      <div class="botao-container">
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <!-- Conteúdo do rodapé aqui -->
+  </footer>
+
+  <script src="./src/js/script.js"></script>
 </body>
 </html>
