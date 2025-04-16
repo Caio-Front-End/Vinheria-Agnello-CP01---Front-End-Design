@@ -7,6 +7,11 @@
 
 /* estilo do cabeçalho */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,6 +107,7 @@ main {
     padding: 2rem 1rem;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 200px;
 }
 
 section {
