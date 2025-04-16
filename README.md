@@ -16,10 +16,10 @@ O projeto foi desenvolvido utilizando **HTML5** e **CSS3**, com o objetivo de of
 
 ### Páginas disponíveis:
 
-- `index.html`: Página principal da loja, com destaque para os vinhos e categorias.
-- `produtos.html`: Lista de rótulos disponíveis, separados por tipo e recomendação.
-- `sobre.html`: História da vinheria e seus diferenciais no mercado.
-- `contato.html`: Informações para contato e localização.
+- `Catálogo`: Lista de rótulos disponíveis, separados por tipo e recomendação.  
+- `Harmonizações`: Sugestões de combinações entre vinhos e pratos.  
+- `Aprenda`: Conteúdo educativo para quem quer conhecer mais sobre o universo dos vinhos.  
+- `Contato`: Informações para contato e localização da loja.
 
 ## Como rodar o projeto
 
@@ -30,7 +30,7 @@ Para visualizar o projeto localmente:
 
 Ou acesse a versão online publicada via GitHub Pages:
 
-🔗 [Acesse o site publicado aqui](https://SEU_USUÁRIO_GITHUB.github.io/NOME_DO_REPOSITÓRIO)
+🔗 [https://caio-front-end.github.io/Vinheria-Agnello-CP01---Front-End-Design/](https://github.com/Caio-Front-End/Vinheria-Agnello-CP01---Front-End-Design)
 
 ## Tecnologias utilizadas
 
