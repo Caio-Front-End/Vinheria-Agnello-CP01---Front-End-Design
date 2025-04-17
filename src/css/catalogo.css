@@ -1,4 +1,131 @@
-/* header fixado */
+* {
+    padding: 0;
+    margin: 0;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.topoArea {
+    background-color: whitesmoke;
+    padding: 20px 0;
+    width: 100%;
+  }
+
+.ContainerCima {
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+.tituloVinho {
+    grid-column: 1 / 2;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+  }
+
+.ordenar {
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.ordenar label {
+    font-size: 20px;
+  }
+.ordenar select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.container {
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.white-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 22px 2px rgb(102, 102, 102);
+    margin-bottom: 20px;
+    max-width: 300px; /* Limita a largura máxima */
+    width: 100%; /* Faz com que ela use o espaço da coluna */
+}
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas fixas */
+    gap: 30px;
+    justify-items: center; /* Centraliza cada box dentro da coluna */
+    width: 100%;
+    max-width: 1100px; /* Limita o grid */
+}
+
+.item {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.product {
+    text-align: center;
+    background-color: white;
+    height: 180px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product.sale .sell {
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    background-color: orangered; 
+    color: white;
+    padding: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+
+}
+
+.item img {
+    margin-top: 10px; 
+    height: 180px;
+}
+
+.item h3 {
+    margin: 0;
+    color: #444;
+    font-size: 1.2rem;
+    margin: 10px 0px 10px 0px;
+}
+
+.item span{
+    color: #777;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.item button {
+    background-color: #1b1b1b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;  
+    width: 100px;
+    
+}
 
 header {
     position: fixed;
