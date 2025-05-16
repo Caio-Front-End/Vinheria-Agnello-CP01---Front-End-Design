@@ -57,3 +57,15 @@ label::before {
     content: "* ";
     color: red;
 }
+
+/*
+    Aplicando efeito com scale nas fotos da index (diminui ao colocar o mouse sobre elas)
+*/
+
+.img-index {
+    transition: all .5s ease;
+}
+
+.img-index:hover {
+    transform: scale(0.95);
+}
