@@ -69,3 +69,12 @@ label::before {
 .img-index:hover {
     transform: scale(0.95);
 }
+
+/*
+    Estilo individual à primeira letra dos artigos da index
+*/
+
+.subtitulo-index::first-letter {
+    color: gray;
+    font-size: 3rem;
+}
