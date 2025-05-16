@@ -21,6 +21,19 @@ O projeto foi desenvolvido utilizando **HTML5** e **CSS3**, com o objetivo de of
 - `Aprenda`: Conteúdo educativo para quem quer conhecer mais sobre o universo dos vinhos.  
 - `Contato`: Informações para contato e localização da loja.
 
+## 💅 Melhorias de Estilo e Animações
+
+Recentemente, foram aplicadas diversas melhorias visuais ao projeto, tornando a interface mais dinâmica e atrativa:
+
+- Animação com `translateX` nos cards da seção **Aprenda**.
+- Estilização da **primeira letra** dos títulos `h2` na página inicial.
+- Efeito de **zoom com `transform: scale()`** nas fotos da index.
+- Estilo personalizado com `::before` nos **labels** do formulário.
+- **Animação aplicada ao logo** do site para dar mais destaque visual.
+- Uso de `:nth-child` para controle preciso de **margens entre elementos**.
+- Efeito visual nos **botões dos cards do catálogo**.
+- Criação e aplicação de **efeitos visuais aos cards** do catálogo via arquivo dedicado.
+
 ## Como rodar o projeto
 
 Para visualizar o projeto localmente:
