@@ -78,3 +78,13 @@ label::before {
     color: gray;
     font-size: 3rem;
 }
+
+/*
+    Estilizando os cards da seção de aprenda com translateX para andar para a direita
+*/
+
+.aprenda .topico:hover {
+    cursor: pointer;
+    transform: translateX(20px);
+}
+
