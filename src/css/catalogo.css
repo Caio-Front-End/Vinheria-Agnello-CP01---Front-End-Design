@@ -5,7 +5,7 @@
     
 }
 .topoArea {
-    background-color: whitesmoke;
+    background-color: white;
     padding: 20px 0;
     width: 100%;
   }
@@ -45,7 +45,7 @@
     border: 1px solid #ccc;
 }
 .container {
-    background-color: whitesmoke;
+    background-color: white;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -58,7 +58,8 @@
     margin-bottom: 20px;
     max-width: 300px; /* Limita a largura máxima */
     width: 100%; /* Faz com que ela use o espaço da coluna */
-    transition: all .5s ease;
+    transition: all .3s ease;
+    box-shadow: 2px 2px 12px 0px #6d6d6d;
 }
 .items {
     display: grid;
