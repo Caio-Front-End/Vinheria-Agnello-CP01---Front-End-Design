@@ -24,3 +24,26 @@
 .whiteBox:nth-child(2) {
     margin-top: 100px;
 }
+
+/*
+    Animação para a logo do site
+*/
+
+header img {
+    width: 165px;
+    animation: ressurgir 3s infinite;
+}
+
+@keyframes ressurgir {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
