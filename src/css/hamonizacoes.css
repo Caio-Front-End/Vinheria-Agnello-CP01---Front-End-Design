@@ -62,12 +62,7 @@ header {
   display: grid;
   grid-template-columns: auto auto;
   border-radius: 15px;
-  box-shadow: 10px 7px 12px rgba(0, 0, 0, 0.2);
-}
-
-.whiteBox:first-child,
-.whiteBox:nth-child(2) {
-  margin-top: 100px;
+  transition: all .5s ease;
 }
 
 .produtos {

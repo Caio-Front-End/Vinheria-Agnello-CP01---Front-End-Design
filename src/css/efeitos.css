@@ -10,3 +10,17 @@
 .item button:focus {
     background-color: #9b343a;
 }
+
+/*
+    Efeitos para a seção de harmonizações
+*/
+
+.whiteBox:hover {
+    box-shadow: 10px 7px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.whiteBox:first-child,
+.whiteBox:nth-child(2) {
+    margin-top: 100px;
+}
