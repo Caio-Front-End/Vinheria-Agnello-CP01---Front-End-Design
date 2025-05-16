@@ -17,7 +17,7 @@
 */
 
 .whiteBox:hover {
-    box-shadow: 4px 4px 20px 1px #555555;
+    box-shadow: 4px 4px 20px 2px #555555;
     cursor: pointer;
     transform: scale(1.035,1.035);
 }
