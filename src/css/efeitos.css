@@ -3,11 +3,12 @@
 */
 
 .white-box:hover {
-    box-shadow: 6px 6px 22px 2px rgb(102, 102, 102);
+    box-shadow: 6px 6px 22px 2px #3a3a3a;
+    transform: scale(1.035,1.035);
     cursor: pointer;
 }
 
-.item button:focus {
+.item button:active {
     background-color: #9b343a;
 }
 
@@ -16,9 +17,11 @@
 */
 
 .whiteBox:hover {
-    box-shadow: 10px 7px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 20px 1px #555555;
     cursor: pointer;
+    transform: scale(1.035,1.035);
 }
+
 
 .whiteBox:first-child,
 .whiteBox:nth-child(2) {
