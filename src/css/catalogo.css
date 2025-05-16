@@ -55,10 +55,10 @@
     background-color: white;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 6px 6px 22px 2px rgb(102, 102, 102);
     margin-bottom: 20px;
     max-width: 300px; /* Limita a largura máxima */
     width: 100%; /* Faz com que ela use o espaço da coluna */
+    transition: all .5s ease;
 }
 .items {
     display: grid;
@@ -124,7 +124,7 @@
     cursor: pointer;
     font-size: 0.9rem;  
     width: 100px;
-    
+    transition: all .3s ease;
 }
 
 header {

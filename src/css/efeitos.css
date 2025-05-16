@@ -1,0 +1,8 @@
+/*
+    Efeitos para a seção de catálogo
+*/
+
+.white-box:hover {
+    box-shadow: 6px 6px 22px 2px rgb(102, 102, 102);
+    cursor: pointer;
+}
