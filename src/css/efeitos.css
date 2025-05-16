@@ -47,3 +47,13 @@ header img {
         opacity: 0;
     }
 }
+
+/*
+    Aplicando estilo (::before) a cada label do form.
+    Indicando que o campo deve ser preenchido.
+*/
+
+label::before {
+    content: "* ";
+    color: red;
+}
